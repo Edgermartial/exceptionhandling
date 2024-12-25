@@ -1,6 +1,7 @@
 # File Read & Write Challenge 🖋️
 
 def read_and_write_file(input_file, output_file):
+
     try:
         # Open the input file in read mode
         with open(input_file, 'r') as infile:
@@ -19,6 +20,7 @@ def read_and_write_file(input_file, output_file):
 # Error Handling Lab 🧪
 
 def get_filename_and_process():
+
     # Ask the user for a filename
     filename = input("Please enter the filename you want to process: ")
     try:
